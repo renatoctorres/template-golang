@@ -1,0 +1,57 @@
+# Arquivos binários
+/bin/
+/pkg/
+
+# Diretório de objetos
+/obj/
+
+# Arquivos compilados
+*.o
+*.a
+*.so
+
+# Diretórios que podem conter arquivos compilados
+/dist/
+/build/
+/cmd/
+
+# Dependências
+/vendor/
+Gopkg.lock
+go.sum
+
+# Arquivos de log
+*.log
+
+# Arquivos de configuração locais
+*.env
+*.yaml
+*.yml
+*.json
+*.ini
+
+# Arquivos de teste temporários
+*.test
+
+# Diretório de saída de testes
+/testbin/
+
+# Sistema de arquivos virtual do Go
+/Godeps/
+
+# IDEs e editores
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos temporários
+*~
+.*.swp
+*.tmp
+*.temp

@@ -1,0 +1,25 @@
+run:
+  concurrency: 4
+  timeout: 1m
+
+linters-settings:
+  gofmt:
+    simplify: true
+  goimports:
+    local-prefixes: github.com/renatoctorres
+
+linters:
+  enable:
+    - gofmt
+    - goimports
+    - golint
+    - errcheck
+  disable:
+    - unused
+
+issues:
+  exclude-use-default: false
+  exclude-rules:
+    - linters:
+        - gosec
+      text: "G101: Potentially hardcoded credentials"
